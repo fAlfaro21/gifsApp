@@ -1,0 +1,13 @@
+<div class="row p-3">
+  <div class="col-12">
+    <!-- Búsqueda -->
+    <gifs-search-box></gifs-search-box>
+  </div>
+  <div class="col-12 pt-2">
+      <!-- Listado de Gifs -->
+      <!-- Los [] quieren decir que vamos a enviar data desde el padre al hijo (a través del "gifs"
+        y que está dfinido en el hijo card-list.component.ts) -->
+      <gifs-card-list [gifs]="gifs"></gifs-card-list>
+  </div>
+
+</div>
